@@ -1,0 +1,95 @@
+# ESTONIA _____________________________
+  [Languages.et]
+    lang = "Eesti"
+    LanguageCode = "et"
+    title = "Litecoin - avatud lähtekoodiga P2P digitaalne valuuta"
+    weight = 9
+
+  # Hero section
+  [Languages.et.hero]
+    # title = "The Cryptocurrency For Payments"
+    # subtitle = "Based on Blockchain Technology"
+   otherversions = "Muud versioonid"
+
+  # Navigation
+  [Languages.et.navigation]
+    brand = "litecoin"
+    download = "Lae alla"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # postpended links
+    [[Languages.et.menu.postpend]]
+      url = "https://litecointalk.io/"
+      name = "Forum"
+      weight = 10
+
+    [[Languages.et.menu.postpend]]
+      url = "https://litecoin-foundation.org/shop"
+      name = "Foundation"
+      weight = 10
+
+  # About section
+  [Languages.et.about]
+    enable = true
+    title = "Mis on Litecoin?"
+    subtitle = "Litecoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world. Litecoin is an open source, global payment network that is fully decentralized without any central authorities. Mathematics secures the network and empowers individuals to control their own finances. Litecoin features faster transaction confirmation times and improved storage efficiency than the leading math-based currency. With substantial industry support, trade volume and liquidity, Litecoin is a proven medium of commerce complementary to Bitcoin."
+
+    [[Languages.et.about.row]]
+      [[Languages.et.about.row.list]]
+        icon = "fa-group"
+        title = "Kommuun"
+        description =  '<p class="text-no-margin text-left text-muted">Abi leiad kiirelt kasvavatest keskkondades nagu </p><ul class="text-muted text-left "> <li><a href="https://litecointalk.io">Litecoin Forums</a></li> <li><a href="http://www.reddit.com/r/litecoin">Reddit Litecoin</a></li> <li><a href="https://twitter.com/search?q=litecoin%20-bitcoin&amp;src=typd">Otsi kasutajaid Twitterist</a></li> <li><a href="http://freenode.net/" rel="nofollow">IRC FreeNode</a> kanalitest <a href="http://webchat.freenode.net/?channels=litecoin" rel="nofollow">#litecoin</a> (kasutajatele) ja <a href="http://webchat.freenode.net/?channels=litecoin-dev" rel="nofollow">#litecoin-dev</a> (arendajatele).</li> </ul>'
+
+      [[Languages.et.about.row.list]]
+        icon = "fa-laptop"
+        title = "Ressursid"
+        description = 'Find general information as well as a list of services and exchanges that support Litecoin at the <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Up-to-date network statistics can be found at <a href="https://chainz.cryptoid.info/ltc/">Litecoin Block Explorer Charts</a>. <br> Source code for Litecoin Core and related projects are available on <a href="https://github.com/litecoin-project">GitHub</a>.'
+
+      [[Languages.et.about.row.list]]
+        icon = "fa-heart"
+        title = "Avatud lähtekoodiga tarkvara"
+        description = "Litecoin is an open source software project released under the MIT/X11 license which gives you the power to run, modify, and copy the software and to distribute, at your option, modified copies of the software. The software is released in a transparent process that allows for independent verification of binaries and their corresponding source code."
+
+    [[Languages.et.about.row]]
+      [[Languages.et.about.row.list]]
+        icon = "fa-link"
+        title = "Blockchain"
+        description = "The Litecoin blockchain is capable of handling higher transaction volume than its counterpart - Bitcoin. Due to more frequent block generation, the network supports more transactions without a need to modify the software in the future. <br />As a result, merchants get faster confirmation times, while still having ability to wait for more confirmations when selling bigger ticket items."
+
+      [[Languages.et.about.row.list]]
+        icon = "fa-lock"
+        title = "Rahakoti krüpteerimine"
+        description = "Wallet encryption allows you to secure your wallet, so that you can view transactions and your account balance, but are required to enter your password before spending litecoins. <br />This provides protection from wallet-stealing viruses and trojans as well as a sanity check before sending payments."
+
+      [[Languages.et.about.row.list]]
+        icon = "fa-money"
+        title = "Mining Reward"
+        description = "Miners are currently awarded with 12.5 new litecoins per block, an amount which gets halved roughly every 4 years (every 840,000 blocks). <br />The Litecoin network is therefore scheduled to produce 84 million litecoins, which is 4 times as many currency units as Bitcoin."
+
+  # download section
+  [Languages.et.download]
+    enable = true
+    gpg = "GPG Signatures"
+    download = "Lae alla"
+    source = "LÄHTEKOOD"
+    releasenotes = "Versiooni kirjeldus"
+    upgradenotes = "Uuenduse märkmed"
+
+    windows = "MS Windows"
+    mac = "Mac OS X"
+    linux = "Linux"
+    android = "Litewallet Android'ile"
+    electrum = "Electrum Litecoin"
+
+  # Contact section
+  [Languages.et.contact]
+    enable = true
+    # title = "Contact us"
+    subtitle  = "Litecoin projekti liikmetega kontakteerumiseks kasuta <a href=\"mailto:contact@litecoin.org\">contact@litecoin.org</a>"
+
+  # Footer section
+  [Languages.et.footer]
+    enable = true
+    copyright = "Copyright &copy; 2011-2020 Litecoin Project. All rights reserved."

@@ -1,0 +1,9 @@
+id: electrum
+version: "Electrum Litecoin"
+
+
+img: fdas
+isCompiled: 1
+isElectrum: 1
+
+uri: https://electrum-ltc.org/
