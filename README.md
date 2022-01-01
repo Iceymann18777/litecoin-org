@@ -1,3 +1,3 @@
-# github-kkplg9
+# Litcoin-org
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-kkplg9)
